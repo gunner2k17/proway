@@ -1,3 +1,36 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.main {
+  background-image: url(../img/header-path.svg);
+  background-repeat: no-repeat;
+  background-position: -94rem -166rem;
+  // width: 100vw;
+  height: 1236px;
+}
+.objects {
+  position: relative;
+  width: 100vw;
+  &__1 {
+  }
+
+  &__2 {
+  }
+}
+
+.slider {
+  &__title {
+    font-size: 20rem;
+    font-weight: 700;
+  }
+
+  &__text {
+    color: $text-grey-color;
+    max-width: 70rem;
+    font-size: 24px;
+    line-height: 1.65;
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+  }
+}

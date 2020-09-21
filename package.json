@@ -10,9 +10,9 @@
     "prefix": "postcss ./dist/css/style.css --use autoprefixer -d ./dist/css/prefixed/",
     "deploy": "gh-pages -d dist"
   },
-  "author": "https://github.com/gunner2k17/proway",
+  "author": "",
   "license": "ISC",
-  "homepage": "ISC",
+  "homepage": "https://gunner2k17.github.io/proway/",
   "browserslist": "last 4 versions",
   "devDependencies": {
     "autoprefixer": "^10.0.0",

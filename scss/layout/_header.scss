@@ -1,3 +1,44 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+
+.header {
+  height: 18.3rem;
+  // position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  // position: relative;
+  z-index: 10;
+
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 11.6rem;
+  }
+
+  .nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    &__link {
+      font-size: 20px;
+      font-family: inherit;
+
+      & + .nav__link {
+        margin-left: 5rem;
+      }
+    }
+  }
+
+  &__lang {
+    margin-left: 7rem;
+    font-size: 20px;
+  }
+}

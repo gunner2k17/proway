@@ -3,23 +3,70 @@
 // -----------------------------------------------------------------------------
 
 .main {
-  background-image: url(../img/header-path.svg);
-  background-repeat: no-repeat;
-  background-position: -94rem -166rem;
+  // background-image: url(../img/header-path.svg);
+  // background-repeat: no-repeat;
+  // background-position: -94rem -166rem;
   // width: 100vw;
   height: 1236px;
+  position: relative;
 }
 .objects {
-  position: relative;
-  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // z-index: 5;
   &__1 {
+    position: absolute;
+    height: 100rem;
+    width: 45rem;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    .elem {
+      position: absolute;
+      right: -133%;
+      top: -50%;
+      height: 150rem;
+      width: 150rem;
+      border-radius: 50%;
+      background-color: $main-red-color;
+    }
   }
 
   &__2 {
+    position: absolute;
+    height: 60rem;
+    width: 81rem;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 5;
+    .elem {
+      position: absolute;
+      right: -88%;
+      top: -152%;
+      height: 150rem;
+      width: 150rem;
+      border-radius: 50%;
+      background-color: rgba(#f6c3ca, 0.8);
+    }
+  }
+
+  &__3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/header-path.svg);
+    background-repeat: no-repeat;
+    background-position: -94rem -166rem;
   }
 }
 
 .slider {
+  position: relative;
+  z-index: 9;
   &__title {
     font-size: 20rem;
     font-weight: 700;

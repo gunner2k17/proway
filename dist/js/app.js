@@ -3,7 +3,7 @@ gsap.from('.slider__title', {
   opacity: 0,
   duration: 2,
   y: -70,
-  delay: 0.5,
+  // delay: 0.5,
   ease: 'back.inOut(1.7)',
 });
 gsap.from('.slider__text', {
@@ -17,7 +17,7 @@ gsap.from('.slider__slide .btn', {
   opacity: 0,
   duration: 2,
   y: -70,
-  delay: 1.1,
+  delay: 1.2,
   ease: 'back.inOut(1.7)',
 });
 

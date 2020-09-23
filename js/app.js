@@ -32,6 +32,13 @@ gsap.from('.slider__slide .btn', {
   y: -70,
   delay: 1.2,
 });
+gsap.from('.social', {
+  opacity: 0,
+  duration: 1.2,
+  y: -70,
+  delay: 2,
+  ease: 'back.inOut(1.7)',
+});
 
 // Objects
 gsap.from('.objects__1 .elem', {

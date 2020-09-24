@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1783.179" height="1783.178" viewBox="0 0 1783.179 1783.178">
+  <defs>
+    <filter id="Rectangle_616" x="0" y="0" width="1783.179" height="1783.178" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+      <feFlood flood-color="#7699fc" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1444" data-name="Group 1444" transform="translate(11258.179 4581.729)">
+    <g transform="matrix(1, 0, 0, 1, -11258.18, -4581.73)" filter="url(#Rectangle_616)">
+      <rect id="Rectangle_616-2" data-name="Rectangle 616" width="1260" height="1260" rx="200" transform="translate(1663.18 436.11) rotate(105)" fill="#fff"/>
+    </g>
+    <g id="dots_4" data-name="dots 4" transform="translate(-10887 -10132)">
+      <circle id="Ellipse_257" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(509 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-2" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(533 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-3" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(557 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-4" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(581 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-5" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(605 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-6" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(629 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-7" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(653 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-8" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(677 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-9" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-10" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-11" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-12" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-13" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-14" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-15" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-16" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-17" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-18" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 6948)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-19" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(509 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-20" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(533 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-21" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(557 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-22" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(581 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-23" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(605 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-24" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(629 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-25" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(653 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-26" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(677 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-27" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-28" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-29" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-30" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-31" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-32" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-33" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-34" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-35" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-36" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 6972)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-37" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(509 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-38" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(533 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-39" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(557 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-40" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(581 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-41" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(605 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-42" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(629 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-43" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(653 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-44" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(677 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-45" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-46" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-47" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-48" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-49" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-50" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-51" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-52" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-53" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-54" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 6996)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-55" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(509 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-56" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(533 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-57" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(557 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-58" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(581 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-59" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(605 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-60" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(629 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-61" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(653 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-62" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(677 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-63" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-64" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-65" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-66" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-67" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-68" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-69" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-70" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-71" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-72" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 7020)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-73" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(509 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-74" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(533 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-75" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(557 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-76" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(581 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-77" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(605 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-78" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(629 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-79" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(653 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-80" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(677 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-81" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-82" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-83" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-84" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-85" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-86" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-87" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-88" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-89" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-90" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 7044)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-91" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(509 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-92" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(533 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-93" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(557 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-94" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(581 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-95" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(605 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-96" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(629 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-97" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(653 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-98" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(677 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-99" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-100" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-101" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-102" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-103" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-104" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-105" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-106" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-107" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 7068)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-108" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 7068)" fill="#edf2f9"/>
+      <path id="Path_8786" data-name="Path 8786" d="M6,0a6.232,6.232,0,0,1,5.911,5c.047.159-10.677-2.78-10.677-2.78A5.778,5.778,0,0,1,6,0Z" transform="translate(557 7092)" fill="#edf2f9"/>
+      <path id="Path_8785" data-name="Path 8785" d="M6,0a6,6,0,0,1,6,6,6.7,6.7,0,0,1-2.411,4.85L.468,8.411A6.2,6.2,0,0,1,0,6,6,6,0,0,1,6,0Z" transform="translate(581 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-109" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(605 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-110" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(629 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-111" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(653 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-112" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(677 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-113" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-114" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-115" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-116" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-117" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-118" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-119" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-120" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-121" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 7092)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-122" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 7092)" fill="#edf2f9"/>
+      <path id="Path_8784" data-name="Path 8784" d="M6,0a6,6,0,0,1,6,6c0,.123-.031.344-.065.775L.456,3.7A5.9,5.9,0,0,1,6,0Z" transform="translate(653 7116)" fill="#edf2f9"/>
+      <path id="Path_8783" data-name="Path 8783" d="M6,0a6,6,0,0,1,6,6,6.176,6.176,0,0,1-4.761,5.974L2.206,10.616A5.978,5.978,0,0,1,6,0Z" transform="translate(677 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-123" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(701 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-124" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(725 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-125" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(749 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-126" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-127" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-128" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-129" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-130" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-131" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(893 7116)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-132" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(917 7116)" fill="#edf2f9"/>
+      <path id="Path_8782" data-name="Path 8782" d="M6,0a6,6,0,0,1,6,6,5.3,5.3,0,0,1-.579,2.377L0,5.36A6.119,6.119,0,0,1,6,0Z" transform="translate(749 7140)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-133" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(773 7140)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-134" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(797 7140)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-135" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(821 7140)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-136" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(845 7140)" fill="#edf2f9"/>
+      <circle id="Ellipse_257-137" data-name="Ellipse 257" cx="6" cy="6" r="6" transform="translate(869 7140)" fill="#edf2f9"/>
+      <path id="Path_8781" data-name="Path 8781" d="M6,0a5.86,5.86,0,0,1,4.673,2.233s-2.179.949-4.848,2.019S0,6.512,0,6.512,0,6.335,0,6A6,6,0,0,1,6,0Z" transform="translate(893 7140)" fill="#edf2f9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="82" viewBox="0 0 97 82">
+  <g id="cat_1" data-name="cat 1" transform="translate(-1428 -1338)">
+    <circle id="bg" cx="41" cy="41" r="41" transform="translate(1443 1338)" fill="#f4e9f5" opacity="0.999"/>
+    <g id="icon_1" data-name="icon 1">
+      <path id="Union_28" data-name="Union 28" d="M18.43,0a1.913,1.913,0,0,0-1.7.856c-.287.521.4,1.516.4,1.516l3.982,5.972H4.667A4.793,4.793,0,0,0,0,13.21V53.133A4.793,4.793,0,0,0,4.667,58H59.333A4.793,4.793,0,0,0,64,53.133V13.21a4.793,4.793,0,0,0-4.667-4.867H41.45l4.036-5.968s.681-1,.4-1.516A1.918,1.918,0,0,0,44.183,0Z" transform="translate(1492 1408) rotate(180)" fill="#892d92"/>
+      <path id="Path_8602" data-name="Path 8602" d="M0,0H13.454" transform="translate(1438 1358.834)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

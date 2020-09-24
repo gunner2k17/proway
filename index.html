@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Main Section -->
     <section class="main">
       <!-- Header -->
       <header class="header header--transparent">
@@ -106,20 +107,41 @@
         </div>
       </section>
     </section>
-    <!-- Sprite -->
-    <svg display="none">
-      <defs>
-        <g id="img-facebook">
-          <path xmlns="http://www.w3.org/2000/svg" fill="#fff" d="M34.587-1,31.469-1C27.966-1,25.7,1.226,25.7,4.672V7.24H22.567a.48.48,0,0,0-.49.47V11.5a.48.48,0,0,0,.49.47H25.7V20.53a.48.48,0,0,0,.49.47h4.09a.48.48,0,0,0,.49-.47V11.969h3.666a.48.48,0,0,0,.49-.47V7.71a.461.461,0,0,0-.144-.332.5.5,0,0,0-.347-.138H30.773V5.07c0-1.066.265-1.606,1.713-1.606h2.1a.48.48,0,0,0,.49-.47V-.525A.481.481,0,0,0,34.587-1Z" transform="translate(-22.077 1)"/>
-        </g>
-        <g id="img-linkdin">
-          <path xmlns="http://www.w3.org/2000/svg" fill="#fff" d="M2.5.183A2.5,2.5,0,1,0,5,2.685,2.507,2.507,0,0,0,2.5.183Z" transform="translate(0 -.183)"/><path xmlns="http://www.w3.org/2000/svg" fill="#fff" d="M8.246,83.531H4.49a.324.324,0,0,0-.324.324V95.946a.324.324,0,0,0,.324.324H8.246a.324.324,0,0,0,.324-.324V83.855A.324.324,0,0,0,8.246,83.531Z" transform="translate(-3.865 -76.27)"/><path xmlns="http://www.w3.org/2000/svg" fill="#fff" d="M96.506,81.557a4.934,4.934,0,0,0-3.32,1.1v-.635a.324.324,0,0,0-.324-.324h-3.6a.324.324,0,0,0-.324.324V94.115a.324.324,0,0,0,.324.324h3.753a.324.324,0,0,0,.324-.324V88.132c0-1.716.316-2.78,1.891-2.78,1.552,0,1.668,1.143,1.668,2.883v5.88a.324.324,0,0,0,.324.324h3.755a.324.324,0,0,0,.324-.324V87.482C101.3,84.723,100.753,81.557,96.506,81.557Z" transform="translate(-81.297 -74.438)"/>
-        </g>
-        <g id="img-twitter">
-          <path xmlns="http://www.w3.org/2000/svg" fill="#fff" d="M19.94,31.591a.27.27,0,0,0-.292-.428A8.74,8.74,0,0,1,18,31.527a4.41,4.41,0,0,0,1.615-1.7.27.27,0,0,0-.357-.368,8.7,8.7,0,0,1-2.11.708,4.363,4.363,0,0,0-7.553,3,4.4,4.4,0,0,0,.114,1,12.357,12.357,0,0,1-8.389-3.889A.6.6,0,0,0,.3,30.515a4.41,4.41,0,0,0-.186,1.272,4.314,4.314,0,0,0,1.847,3.655A5.732,5.732,0,0,1,.81,35.228.638.638,0,0,0,.024,36a4.527,4.527,0,0,0,3.462,3.249,4,4,0,0,1-1.1.154h0a.5.5,0,0,0-.436.747,4.388,4.388,0,0,0,3.729,2.225A8.717,8.717,0,0,1,.26,44.256h0a.253.253,0,0,0-.119.476,12.408,12.408,0,0,0,18.2-11.057c0-.191,0-.379-.012-.568A8.9,8.9,0,0,0,19.94,31.591Z" transform="translate(-.002 -28.776)"/>
-        </g>
-      </defs>
-    </svg>
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <div class="about__cards">
+          <div class="cards-group">
+            <div class="card">
+              <img src="./img/icons/web.svg" alt="" class="card__image">
+              <h3 class="card__title">Web design</h3>
+              <div class="card__text">There are many variations
+                of passages available</div>
+            </div>
+            <div class="card">
+              <img src="./img/icons/tech.svg" alt="" class="card__image">
+              <h3 class="card__title">Tech-solutions</h3>
+              <div class="card__text">There are many variations
+                of passages available</div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/icons/mobile.svg" alt="" class="card__image">
+            <h3 class="card__title">Mobile app</h3>
+            <div class="card__text">There are many variations
+              of passages available</div>
+          </div>
+        </div>
+        <div class="about__info">
+          <h2 class="about__title">About us</h2>
+          <h2 class="about__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.
+            as opposed to using.</h2>
+          <button type="button" class="btn btn--primary">About us</button>
+        </div>
+      </div>
+      <!-- <img src="./img/bg.svg" alt="" class="about__object"> -->
+      <div class="about__object"></div>
+    </section>
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>

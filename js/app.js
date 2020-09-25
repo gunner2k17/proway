@@ -68,7 +68,78 @@ let about = gsap.timeline({
 about.from('.about__object', {
   opacity: 0,
   duration: 2,
-  rotation: -45,
   x: -810,
   ease: 'back.inOut(1.7)',
+});
+
+// Solutions section
+gsap.registerPlugin(DrawSVGPlugin);
+var tl = gsap.timeline();
+tl.fromTo(
+  svgCircleProgressPath1,
+  0.4,
+  {
+    drawSVG: '0',
+  },
+  {
+    drawSVG: '0 20%',
+  }
+);
+
+tl.fromTo(
+  svgCircleProgressPath2,
+  0.8,
+  {
+    drawSVG: '0',
+  },
+  {
+    drawSVG: '0 40%',
+  }
+);
+
+tl.fromTo(
+  svgCircleProgressPath3,
+  1.2,
+  {
+    drawSVG: '0',
+  },
+  {
+    drawSVG: '0 60%',
+  }
+);
+
+tl.fromTo(
+  svgCircleProgressPath4,
+  1.6,
+  {
+    drawSVG: '0',
+  },
+  {
+    drawSVG: '0 80%',
+  }
+);
+
+tl.fromTo(
+  svgCircleProgressPath5,
+  2,
+  {
+    drawSVG: '0',
+  },
+  {
+    drawSVG: '0 100%',
+  }
+);
+
+let solutions = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.solutions',
+    start: 'top bottom',
+  },
+});
+
+about.from('.solutions__object', {
+  opacity: 0,
+  duration: 2,
+  x: 810,
+  ease: 'back.inOut(2)',
 });

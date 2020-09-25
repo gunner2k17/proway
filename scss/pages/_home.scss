@@ -158,7 +158,6 @@
 
 // About Section
 .about {
-  position: relative;
   margin-top: 20rem;
 
   @media screen and(max-width: 1440px) {
@@ -222,17 +221,12 @@
     padding-top: 10rem;
   }
 
-  &__title {
-    font-size: 4rem;
+  &__title,
+  &__text {
     max-width: 50rem;
   }
 
   &__text {
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.875;
-    color: $text-grey-color;
-    max-width: 50rem;
     margin-top: 6rem;
     margin-bottom: 10rem;
   }
@@ -246,6 +240,152 @@
     position: absolute;
     left: -88rem;
     top: -460px;
+    z-index: -1;
+
+    @media screen and(max-width: 1440px) {
+      left: -90rem;
+    }
+  }
+}
+
+.solutions {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+  .container {
+    display: flex;
+  }
+
+  &__info {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__title {
+    // max-width: 44.5rem;
+    // padding-left: 14rem;
+  }
+
+  &__text {
+    margin-top: 6rem;
+    max-width: 44.5rem;
+  }
+
+  &__list {
+    flex: 0 0 50%;
+
+    .solutions__title {
+      padding-left: 23rem;
+    }
+  }
+
+  .steps {
+    margin-top: 6rem;
+    &__step {
+      display: flex;
+      justify-content: flex-end;
+
+      & + .steps__step {
+        margin-top: 7rem;
+      }
+
+      &--1 {
+        .steps__circle {
+          background-color: $step-bg-color-1;
+          color: $step-text-color-1;
+        }
+      }
+      &--2 {
+        .steps__circle {
+          background-color: $step-bg-color-2;
+          color: $step-text-color-2;
+        }
+      }
+      &--3 {
+        .steps__circle {
+          background-color: $step-bg-color-3;
+          color: $step-text-color-3;
+        }
+      }
+      &--4 {
+        .steps__circle {
+          background-color: $step-bg-color-4;
+          color: $step-text-color-4;
+        }
+      }
+      &--5 {
+        .steps__circle {
+          background-color: $step-bg-color-5;
+          color: $step-text-color-5;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &__circle {
+      width: 8rem;
+      height: 8rem;
+      position: relative;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &::after {
+        content: '........';
+        position: absolute;
+        height: 7rem;
+        width: 2px;
+        bottom: -4rem;
+        left: 32%;
+        font-size: 24px;
+        color: $main-bg-color;
+        letter-spacing: 5px;
+        transform: rotate(90deg);
+        // background-image: url(../img/objects/dots.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__num {
+      @include abs-center;
+      font-size: 3rem;
+      font-weight: 400;
+    }
+
+    &__info {
+      margin-left: 6rem;
+      max-width: 44rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    &__text {
+      font-size: 1.6rem;
+      margin-top: 2rem;
+      color: $text-grey-color;
+      line-height: 1.875;
+    }
+  }
+
+  &__object {
+    background-image: url(../img/objects/solutions-object.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1800px;
+    height: 1800px;
+    position: absolute;
+    right: -79rem;
+    top: -38rem;
     z-index: -1;
 
     @media screen and(max-width: 1440px) {

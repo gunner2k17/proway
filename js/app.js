@@ -73,8 +73,19 @@ about.from('.about__object', {
 });
 
 // Solutions section
-gsap.registerPlugin(DrawSVGPlugin);
-var tl = gsap.timeline();
+gsap.registerPlugin(DrawSVGPlugin, ScrollTrigger);
+let tl = gsap.timeline();
+tl.pause();
+
+ScrollTrigger.create({
+  trigger: '.solutions__list',
+  start: 'top bottom',
+  onEnter: () =>
+    setTimeout(() => {
+      tl.resume();
+    }, 3500),
+});
+
 tl.fromTo(
   svgCircleProgressPath1,
   0.4,

@@ -20,6 +20,7 @@ gsap.from('.slider__title', {
   y: -70,
   delay: 0.2,
 });
+
 gsap.from('.slider__text', {
   opacity: 0,
   duration: 1,
@@ -83,7 +84,7 @@ ScrollTrigger.create({
   onEnter: () =>
     setTimeout(() => {
       tl.resume();
-    }, 3500),
+    }, 2500),
 });
 
 tl.fromTo(
@@ -99,7 +100,7 @@ tl.fromTo(
 
 tl.fromTo(
   svgCircleProgressPath2,
-  0.8,
+  0.6,
   {
     drawSVG: '0',
   },
@@ -110,7 +111,7 @@ tl.fromTo(
 
 tl.fromTo(
   svgCircleProgressPath3,
-  1.2,
+  0.8,
   {
     drawSVG: '0',
   },
@@ -121,7 +122,7 @@ tl.fromTo(
 
 tl.fromTo(
   svgCircleProgressPath4,
-  1.6,
+  1.0,
   {
     drawSVG: '0',
   },
@@ -132,7 +133,7 @@ tl.fromTo(
 
 tl.fromTo(
   svgCircleProgressPath5,
-  2,
+  1.2,
   {
     drawSVG: '0',
   },
@@ -148,9 +149,36 @@ let solutions = gsap.timeline({
   },
 });
 
-about.from('.solutions__object', {
+solutions.from('.solutions__object', {
   opacity: 0,
   duration: 2,
   x: 810,
-  ease: 'back.inOut(2)',
+  ease: 'back.inOut(3)',
+});
+
+solutions.from('.solutions__circle', {
+  opacity: 0,
+  duration: 2,
+  x: 810,
+  ease: 'back.inOut(3)',
+});
+
+let agile = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.agile',
+    start: 'top bottom',
+  },
+});
+
+agile.from('.agile__object', {
+  duration: 1.5,
+  rotate: -20,
+  ease: 'back.inOut(3)',
+});
+
+agile.from('.agile__circle', {
+  opacity: 0,
+  duration: 2,
+  x: -810,
+  ease: 'back.inOut(3)',
 });

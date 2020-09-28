@@ -259,8 +259,9 @@
     flex: 0 0 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
+    padding-bottom: 22rem;
   }
 
   &__title {
@@ -389,6 +390,200 @@
 
     @media screen and(max-width: 1440px) {
       left: -90rem;
+    }
+  }
+
+  &__circle {
+    width: 123.6rem;
+    height: 123.6rem;
+    position: absolute;
+    top: 0;
+    right: -75%;
+    z-index: -2;
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: -35%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 50%;
+      background-color: $primary-pink-color;
+    }
+  }
+}
+
+.agile {
+  margin-top: 60rem;
+  margin-bottom: 20rem;
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14.5rem;
+  }
+
+  &__title {
+    font-size: 17rem;
+    font-weight: 700;
+  }
+
+  &__img {
+    width: 39.5rem;
+  }
+
+  .model {
+    &__heading {
+      font-size: 4rem;
+      margin-left: 13.2rem;
+    }
+
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 7rem;
+      margin-top: 6rem;
+    }
+
+    &__step {
+      display: flex;
+    }
+
+    &__img {
+      flex: 0 0 7.7rem;
+      height: 7.7rem;
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding: 3px;
+      margin-right: 5.5rem;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        height: 6.3rem;
+        width: 6.3rem;
+        border-radius: 14px;
+        transform: rotate(16deg);
+        // z-index: -1;
+        transition: all .2s ease-in-out;
+      }
+
+      &:hover {
+        &::before {
+          transform: scale(1.1) rotate(90deg);
+          transition: all .2s ease-in-out;
+        }
+      }
+
+      &--1 {
+        .model__icon {
+          width: 3.5rem;
+        }
+        &::before {
+          background-color: $model-red-color;
+        }
+      }
+      &--2 {
+        .model__icon {
+          width: 4.25rem;
+        }
+        &::before {
+          background-color: $model-purple-color;
+        }
+      }
+      &--3 {
+        .model__icon {
+          width: 4.9rem;
+        }
+        &::before {
+          background-color: $model-green-color;
+        }
+      }
+      &--4 {
+        .model__icon {
+          width: 4.1rem;
+        }
+        &::before {
+          background-color: $model-blue-color;
+        }
+      }
+      &--5 {
+        .model__icon {
+          width: 3.5rem;
+        }
+        &::before {
+          background-color: $model-darkpurple-color;
+        }
+      }
+      &--6 {
+        .model__icon {
+          width: 4.7rem;
+        }
+        &::before {
+          background-color: $model-yellow-color;
+        }
+      }
+    }
+
+    &__icon {
+      position: relative;
+    }
+
+    &__info {
+      max-width: 44.5rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    &__text {
+      font-size: 1.6rem;
+      color: $text-grey-color;
+      margin-top: 2rem;
+    }
+  }
+
+  &__object {
+    width: 250rem;
+    height: 250rem;
+
+    background-image: url(../img/objects/agile-object.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -37%;
+    top: -45%;
+    z-index: -1;
+  }
+
+  &__circle {
+    width: 158.6rem;
+    height: 158.6rem;
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: -2;
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: -42%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 50%;
+      background-color: $main-red-color;
     }
   }
 }

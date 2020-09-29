@@ -264,11 +264,6 @@
     padding-bottom: 22rem;
   }
 
-  &__title {
-    // max-width: 44.5rem;
-    // padding-left: 14rem;
-  }
-
   &__text {
     margin-top: 6rem;
     max-width: 44.5rem;
@@ -472,13 +467,13 @@
         border-radius: 14px;
         transform: rotate(16deg);
         // z-index: -1;
-        transition: all .2s ease-in-out;
+        transition: all 0.2s ease-in-out;
       }
 
       &:hover {
         &::before {
           transform: scale(1.1) rotate(90deg);
-          transition: all .2s ease-in-out;
+          transition: all 0.2s ease-in-out;
         }
       }
 
@@ -584,6 +579,230 @@
       right: 0;
       border-radius: 50%;
       background-color: $main-red-color;
+    }
+  }
+}
+
+// Projects
+.projects {
+  margin-top: 95rem;
+
+  @media screen and(max-width: 1440px) {
+    margin-top: 0;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: 28rem 28rem;
+    grid-gap: 9rem;
+
+    .card {
+      height: 28rem;
+      border-radius: 1.2rem;
+      background-color: #fff;
+      padding: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:nth-child(odd) {
+        margin-top: -13rem;
+      }
+
+      &__image {
+        object-fit: contain;
+      }
+    }
+  }
+
+  &__info {
+    flex: 0 0 50%;
+    padding-left: 20rem;
+    padding-top: 10rem;
+  }
+
+  &__title,
+  &__text {
+    max-width: 50rem;
+  }
+
+  &__text {
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+  }
+
+  &__link {
+    width: 8.5rem;
+    font-size: 1.6rem;
+    color: $main-red-color;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      .projects__icon {
+        transform: translateX(3px);
+        transition: all .3s ease-in-out;
+      }
+    }
+  }
+
+  &__icon {
+    width: 2rem;
+    margin-left: 1rem;
+    fill: $main-red-color;
+    transition: all .3s ease-in-out;
+  }
+
+  &__object {
+    background-image: url(../img/objects/projects-object.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1800px;
+    height: 1800px;
+    position: absolute;
+    left: -83rem;
+    top: -69rem;
+    z-index: -1;
+
+    @media screen and(max-width: 1440px) {
+      left: -90rem;
+    }
+  }
+}
+
+
+// Team Section
+.team {
+  margin-top: 20rem;
+  margin-bottom: 4rem;
+  .container {
+    display: flex;
+  }
+
+  &__info {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__text {
+    margin-bottom: 10rem;
+  }
+
+  &__cards {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    .card {
+      display: flex;
+      align-items: center;
+      width: 57.5rem;
+      align-self: flex-end;
+
+      &__img {
+        flex: 0 0 27.5rem;
+        height: 27.5rem;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        margin-right: 7rem;
+      }
+
+      &__info {
+
+      }
+
+      &__title {
+        font-size: 2rem;
+      }
+
+      &__subtitle {
+        font-size: 1.5rem;
+        color: $text-grey-color;
+        margin-top: 1rem;
+      }
+
+      &__details {
+        font-size: 1.6rem;
+        line-height: 1.875;
+        color: $text-grey-color;
+        margin-top: 2.4rem;
+      }
+
+      & + .card {
+        margin-top: 8rem;
+      }
+
+      &--right {
+        flex-direction: row-reverse;
+
+        .card__img {
+          margin-right: 0;
+          margin-left: 7rem;
+        }
+
+        .card__info {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  &__text {
+    margin-top: 6rem;
+    max-width: 44.5rem;
+  }
+
+  &__list {
+    flex: 0 0 50%;
+
+    .solutions__title {
+      padding-left: 23rem;
+    }
+  }
+
+  &__object {
+    background-image: url(../img/objects/team-object.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1800px;
+    height: 1800px;
+    position: absolute;
+    right: -72rem;
+    top: -32rem;
+    z-index: -1;
+
+    @media screen and(max-width: 1440px) {
+      left: -90rem;
+    }
+  }
+
+  &__circle {
+    width: 155.5rem;
+    height: 155.5rem;
+    position: absolute;
+    top: 17%;
+    right: -83%;
+    z-index: -2;
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: -35%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 50%;
+      background-color: $step-text-color-3;
     }
   }
 }

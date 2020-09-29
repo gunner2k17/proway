@@ -142,6 +142,7 @@ tl.fromTo(
   }
 );
 
+// Solutions
 let solutions = gsap.timeline({
   scrollTrigger: {
     trigger: '.solutions',
@@ -163,6 +164,7 @@ solutions.from('.solutions__circle', {
   ease: 'back.inOut(3)',
 });
 
+// Agile
 let agile = gsap.timeline({
   scrollTrigger: {
     trigger: '.agile',
@@ -180,5 +182,42 @@ agile.from('.agile__circle', {
   opacity: 0,
   duration: 2,
   x: -810,
+  ease: 'back.inOut(3)',
+});
+
+// Projscts
+let projects = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.projects',
+    start: 'top bottom',
+  },
+});
+
+projects.from('.projects__object', {
+  opacity: 0,
+  duration: 2,
+  x: -810,
+  ease: 'back.inOut(1.7)',
+});
+
+// Team
+let team = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.team',
+    start: 'top bottom',
+  },
+});
+
+team.from('.team__object', {
+  opacity: 0,
+  duration: 2,
+  x: 810,
+  ease: 'back.inOut(1.7)',
+});
+
+team.from('.team__circle', {
+  opacity: 0,
+  duration: 2,
+  x: 810,
   ease: 'back.inOut(3)',
 });

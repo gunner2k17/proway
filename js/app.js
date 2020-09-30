@@ -221,3 +221,18 @@ team.from('.team__circle', {
   x: 810,
   ease: 'back.inOut(3)',
 });
+
+// Footer
+let footer = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.footer',
+    start: 'top bottom',
+  },
+});
+
+team.from('.footer__circle', {
+  opacity: 0,
+  duration: 2,
+  x: -410,
+  ease: 'back.inOut(1.7)',
+});

@@ -16,6 +16,21 @@
 	<symbol id="arrow" viewBox="0 0 21 9.414">
 	  <path id="next" d="M13.991,120.955c0-.014,0-.029-.007-.043s-.006-.025-.009-.038-.006-.024-.009-.037-.008-.024-.013-.037-.008-.024-.013-.036-.01-.022-.016-.034-.011-.024-.017-.036-.012-.021-.019-.032-.013-.023-.021-.034-.017-.023-.025-.034l-.021-.027c-.017-.02-.034-.039-.052-.058l-3.937-3.922A.786.786,0,0,0,8.718,117.7l2.593,2.583H-6.212a.786.786,0,0,0-.788.785.786.786,0,0,0,.788.784H11.311l-2.593,2.583a.786.786,0,0,0,1.114,1.109l3.937-3.922a.771.771,0,0,0,.052-.058l.021-.027c.008-.011.017-.022.025-.034s.014-.023.021-.034.013-.021.019-.032.012-.024.017-.036.011-.022.016-.034.009-.024.013-.036.009-.024.013-.037.006-.024.009-.037.007-.025.009-.038,0-.029.007-.043,0-.022,0-.033a.791.791,0,0,0,0-.155C14,120.977,13.993,120.966,13.991,120.955Z" transform="translate(7 -116.358)"/>
 	</symbol>
+	<symbol id="telegram" viewBox="0 0 35 35">
+	  <path d="M34.278.722a2.447,2.447,0,0,0-2.3-.656l-.011,0L4.481,6.8A5.865,5.865,0,0,0,0,12.505v3.627a2.464,2.464,0,0,0,2.355,2.459l10.339,1.76a.684.684,0,0,0,.6-.191l1.578-1.578a1.094,1.094,0,0,1,1.547,1.547l-1.578,1.578a.684.684,0,0,0-.191.6l1.76,10.339A2.464,2.464,0,0,0,18.867,35h3.627a5.865,5.865,0,0,0,5.71-4.481L34.932,3.033l0-.011a2.446,2.446,0,0,0-.656-2.3Z"/>
+	</symbol>
+	<symbol id="phone" viewBox="0 0 18 26">
+	  <g transform="translate(-0.149)">
+	    <rect id="Rectangle_560" data-name="Rectangle 560" width="26" height="18" rx="2" transform="translate(0.149 26) rotate(-90)" fill="#b2b1bb"/>
+	    <path id="Path_8730" data-name="Path 8730" d="M12171.379,7022.614h-4.335" transform="translate(-12160.197 -7000.448)" fill="none" stroke="#3f3d56" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+	  </g>
+	</symbol>
+	<symbol id="email" viewBox="0 0 27 19">
+	  <g transform="translate(0)">
+	    <rect id="Rectangle_560" data-name="Rectangle 560" width="27" height="19" rx="2" transform="translate(0)" fill="#b2b1bb"/>
+	    <path id="Path_8728" data-name="Path 8728" d="M12166.9,7032.953l3.936,1.954,3.812-1.954" transform="translate(-12156.97 -7024.995)" fill="none" stroke="#3f3d56" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+	  </g>
+	</symbol>
 	<symbol id="bug" viewBox="0 0 43.955 46.015">
 	  <g id="icon_4" data-name="icon 4" transform="translate(6.521 5.9)">
 	    <path id="Union_30" data-name="Union 30" d="M33.275,37.061l7.679,5.112Zm-25.6,0L0,42.173Zm32-23L32,19.169Zm-38.394,0,7.678,5.112ZM26.876,0,24.316,5.112Zm-12.8,0L15.9,3.76Z" transform="translate(-5.021 -4.4)" fill="none" stroke="#7ba0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>

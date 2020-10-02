@@ -4,7 +4,7 @@
   "description": "Proway website",
   "main": "index.js",
   "scripts": {
-    "server": "live-server",
+    "server": "live-server --open=dist",
     "sass": "node-sass -w -r scss/main.scss dist/css/style.css --output-style compressed --source-map true --source-map-contents sass",
     "start": "concurrently \"npm run server\" \"npm run sass\"",
     "prefix": "postcss ./dist/css/style.css --use autoprefixer -d ./dist/css/prefixed/",

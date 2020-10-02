@@ -1,0 +1,103 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the modal component.
+// -----------------------------------------------------------------------------
+.modal {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(#171a30, 0.4);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    width: 90rem;
+    padding: 8rem 10rem;
+    padding-bottom: 10rem;
+    border-radius: 4.4rem;
+    background-color: #fff;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  &__header {
+    margin-bottom: 6rem;
+  }
+
+  &__title {
+    font-size: 4rem;
+  }
+
+  &__close {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 2rem;
+    top: 6rem;
+    right: 6rem;
+    cursor: pointer;
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: $text-primary-color;
+    opacity: .6;
+  }
+
+  &__body {
+    .row + .form__group {
+      margin-top: 3rem;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+
+    & + .modal__contact {
+      margin-left: 8rem;
+    }
+
+    &--phone {
+      .modal__icon {
+        height: 2.6rem;
+        width: 1.8rem;
+      }
+    }
+
+    &--email {
+      .modal__icon {
+        width: 2.7rem;
+      }
+    }
+  }
+
+  &__value {
+    margin-left: 2rem;
+    color: $text-grey-secondary-color;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10rem;
+  }
+
+  &--open {
+    visibility: visible;
+
+    .modal__content {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

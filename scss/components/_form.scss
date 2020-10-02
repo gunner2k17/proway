@@ -1,0 +1,182 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the form component.
+// -----------------------------------------------------------------------------
+
+.form {
+  .form__group {
+    position: relative;
+
+    input.form__input[type='text'],
+    input.form__input[type='email'],
+    textarea.form__textarea {
+      border-radius: 4.2rem;
+      width: 100%;
+      padding: 3rem 4rem;
+      font-family: inherit;
+      font-size: 1.6rem;
+      color: $text-primary-color;
+      border: 1px solid $input-border-color;
+      transition: all 0.3s ease-in-out;
+      outline: none;
+
+      + label.form__label[data-placeholder] {
+        pointer-events: none;
+        color: $input-text-color;
+
+        &:after {
+          content: attr(data-placeholder);
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 4rem;
+          transform: translate(0%, -50%);
+          transition: all 0.3s ease-in-out;
+          padding: 0 5px;
+          background-color: rgba(255, 255, 255, 0);
+        }
+      }
+
+      &:focus,
+      &:valid {
+        border: 1px solid $input-focus-color;
+
+        + label.form__label[data-placeholder] {
+          &:after {
+            transform: translate(-5%, -50px) scale(0.9, 0.9);
+            color: $input-focus-color;
+            background-color: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+    }
+
+    textarea.form__textarea {
+      resize: none;
+
+      + label.form__label[data-placeholder] {
+        &:after {
+          top: 4rem !important;
+        }
+      }
+
+      &:focus,
+      &:valid {
+        + label.form__label[data-placeholder] {
+          &:after {
+            transform: translate(-5%, -50px) scale(0.9, 0.9);
+          }
+        }
+      }
+    }
+
+    + .form__group {
+      margin-top: 3rem;
+    }
+
+    &.is--invalid {
+      input.form__input[type='text'],
+      input.form__input[type='email'],
+      textarea.form__textarea {
+        border-color: $main-red-color;
+
+        + label.form__label[data-placeholder] {
+          color: $main-red-color;
+        }
+
+        &:focus {
+          border-color: $input-border-color;
+        }
+      }
+    }
+
+    &--footer {
+      input.form__input[type='text'],
+      input.form__input[type='email'],
+      textarea.form__textarea {
+        background-color: #3F3D56;
+        color: $input-text-color;
+
+        + label.form__label[data-placeholder] {
+  
+          &:after {
+            content: attr(data-placeholder);
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 4rem;
+            transform: translate(0%, -50%);
+            transition: all 0.3s ease-in-out;
+            padding: 0 5px;
+            background-color: #3F3D56 !important;
+          }
+        }
+
+      }
+    }
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6rem;
+  }
+
+  &__checkmark {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    // Box.
+    & + label:before {
+      content: '';
+      margin-right: 2rem;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 2rem;
+      height: 2rem;
+      background: transparent;
+      border: 1px solid #b1b0bb;
+      border-radius: 6px;
+    }
+
+    // Box checked
+    &:checked + label:before {
+      background: $step-text-color-3;
+      border: 1px solid $step-text-color-3;
+    }
+
+    // Disabled state label.
+    &:disabled + label {
+      color: #b8b8b8;
+      cursor: auto;
+    }
+
+    // Disabled box.
+    &:disabled + label:before {
+      box-shadow: none;
+      background: #ddd;
+    }
+
+    // Checkmark. Could be replaced with an image
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 0.4rem;
+      top: 0.5rem;
+      width: 1.3rem;
+      height: 1.3rem;
+      background-image: url(../img/icons/checkmark.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+.styled-checkbox {
+}

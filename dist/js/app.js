@@ -236,3 +236,32 @@ team.from('.footer__circle', {
   x: -410,
   ease: 'back.inOut(1.7)',
 });
+
+// Date IIFE
+{
+  const date = document.querySelector('.footer__year');
+  const year = new Date().getFullYear();
+  date.textContent = year;
+}
+
+// Modal
+$(document).on('click', '[data-toggle="modal"]', function () {
+  var $target = $($(this).data('target'));
+  $target.toggleClass('modal--open');
+  return false;
+});
+
+$(document).on('click', '[data-dismiss="modal"]', function () {
+  setTimeout(() => {
+    $(this).parents('.modal').toggleClass('modal--open');
+  }, 200);
+  return false;
+});
+
+$('.modal').click(function (e) {
+  if (e.target === e.currentTarget) {
+    setTimeout(() => {
+      $(this).removeClass('modal--open');
+    }, 200);
+  }
+});

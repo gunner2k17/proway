@@ -4,7 +4,8 @@
 
 
 .header {
-  height: 18.3rem;
+  // height: 18.3rem;
+  height: 12rem;
   position: fixed;
   z-index: 10;
   width: 100vw;
@@ -62,6 +63,6 @@
 
   &--white {
     background-color: #fff;
-    box-shadow: 0 10px 40px rgba(black, .06);
+    box-shadow: 0 10px 40px rgba(#7699FC, .1);
   }
 }

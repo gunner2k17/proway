@@ -306,7 +306,7 @@ $('.nav__link').click(function () {
   } else if ($(this).attr('href') === '#solutions') {
     $('html, body').animate(
       {
-        scrollTop: $('.solutions').offset().top,
+        scrollTop: $('.solutions').offset().top - 50,
       },
       1500
     );
@@ -314,16 +314,25 @@ $('.nav__link').click(function () {
     console.log($('.projects').offset().top);
     $('html, body').animate(
       {
-        scrollTop: $('.projects').offset().top - 200,
+        scrollTop: $('.projects').offset().top - 300,
       },
       1500
     );
   } else if ($(this).attr('href') === '#team') {
     $('html, body').animate(
       {
-        scrollTop: $('.team').offset().top,
+        scrollTop: $('.team').offset().top - 200,
       },
       1500
     );
   }
+});
+
+$('.header__logo').click(function () {
+  $('html, body').animate(
+    {
+      scrollTop: $('.main').offset().top,
+    },
+    1500
+  );
 });

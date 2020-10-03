@@ -11,24 +11,24 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="header__logo">
+          <img src="img/logo-header.svg" alt="proway" class="header__img" />
+        </a>
+        <nav class="nav">
+          <a href="#about" class="nav__link">About</a>
+          <a href="#solutions" class="nav__link">Solutions</a>
+          <a href="#projects" class="nav__link">Projects</a>
+          <a href="#team" class="nav__link">Team</a>
+          <a href="#" class="nav__link">Blog</a>
+        </nav>
+        <a href="#" class="header__lang">ქარ</a>
+      </div>
+    </header>
     <!-- Main Section -->
     <section class="main">
-      <!-- Header -->
-      <header class="header header--transparent">
-        <div class="container">
-          <a href="index.html" class="header__logo">
-            <img src="img/logo-header.svg" alt="proway" class="header__img" />
-          </a>
-          <nav class="nav">
-            <a href="#" class="nav__link">About</a>
-            <a href="#" class="nav__link">Solutions</a>
-            <a href="#" class="nav__link">Projects</a>
-            <a href="#" class="nav__link">Team</a>
-            <a href="#" class="nav__link">Blog</a>
-          </nav>
-          <a href="#" class="header__lang">ქარ</a>
-        </div>
-      </header>
       <!-- Objects -->
       <section class="objects">
         <div class="objects__1">
@@ -147,7 +147,12 @@
             of using Lorem Ipsum is that it has a more-or-less normal
             distribution. as opposed to using.
           </div>
-          <button type="button" class="btn btn--outline-primary">
+          <button
+            type="button"
+            data-toggle="modal"
+            data-target="#aboutModal"
+            class="btn btn--outline-primary"
+          >
             About us
           </button>
         </div>
@@ -450,7 +455,12 @@
             of using Lorem Ipsum is that it has a more-or-less normal
             distribution.
           </div>
-          <button type="button" class="btn btn--outline-primary">
+          <button
+            type="button"
+            data-toggle="modal"
+            data-target="#JoinUsModal"
+            class="btn btn--outline-primary"
+          >
             Join us
           </button>
         </div>
@@ -575,7 +585,7 @@
         <div class="footer__circle"></div>
       </div>
     </footer>
-    <!-- Modal -->
+    <!-- Contacts Modal -->
     <div class="modal" id="contactsModal">
       <div class="modal__content">
         <div class="modal__header">
@@ -666,6 +676,135 @@
               >hello@proway.ge</a
             >
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Modal -->
+    <div class="modal" id="aboutModal">
+      <div class="modal__content">
+        <div class="modal__header">
+          <h2 class="modal__title">What we do</h2>
+          <button
+            id="close"
+            class="modal__close"
+            data-dismiss="modal"
+            type="button"
+          >
+            <svg class="modal__icon">
+              <use xlink:href="./img/sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="modal__body">
+          <div class="modal__text">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undoubtable source. Lorem Ipsum comes from sections
+            1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a
+            treatise on the theory of ethics, very popular during the
+            Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit
+            amet..”, comes from a line in section 1.10.32.
+          </div>
+          <div class="modal__text">
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+            below for those interested. Sections 1.10.32 and 1.10.33 from “de
+            Finibus Bonorum et Malorum” by Cicero are also reproduced in their
+            exact original form, accompanied by English versions from the 1914
+            translation by H. Rackham.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Join Us Modal -->
+    <div class="modal" id="JoinUsModal">
+      <div class="modal__content">
+        <div class="modal__header">
+          <h2 class="modal__title">Join us</h2>
+          <button
+            id="close"
+            class="modal__close"
+            data-dismiss="modal"
+            type="button"
+          >
+            <svg class="modal__icon">
+              <use xlink:href="./img/sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="modal__body">
+          <form class="form">
+            <div class="row">
+              <div class="col">
+                <div class="form__group">
+                  <input type="text" class="form__input" required />
+                  <label
+                    alt="Label"
+                    class="form__label"
+                    data-placeholder="Name"
+                  ></label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form__group">
+                  <input type="text" class="form__input" required />
+                  <label
+                    alt="Label"
+                    class="form__label"
+                    data-placeholder="Age"
+                  ></label>
+                </div>
+              </div>
+            </div>
+            <div class="form__group">
+              <textarea rows="4" class="form__textarea" required></textarea>
+              <label
+                alt="Label"
+                class="form__label"
+                data-placeholder="Education"
+              ></label>
+            </div>
+            <div class="form__group">
+              <textarea rows="4" class="form__textarea" required></textarea>
+              <label
+                alt="Label"
+                class="form__label"
+                data-placeholder="Experience"
+              ></label>
+            </div>
+            <div class="form__group">
+              <div class="form__upload">
+                <input type="file" id="actual-btn" hidden />
+                <span class="form__filename" id="file-chosen">Resume</span>
+                <label class="form__upload-btn" for="actual-btn">
+                  <svg class="form__icon">
+                    <use xlink:href="./img/sprite.svg#clip"></use>
+                  </svg>
+                </label>
+                <button type="button" class="form__remove">
+                  <svg class="form__icon">
+                    <use xlink:href="./img/sprite.svg#close"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="form__controls">
+              <div class="form__checkbox">
+                <input
+                  class="form__checkmark"
+                  id="checkbox-2"
+                  type="checkbox"
+                  value="value1"
+                />
+                <label for="checkbox-2">I am not robot</label>
+              </div>
+              <button type="submit" class="btn btn--primary">Send</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

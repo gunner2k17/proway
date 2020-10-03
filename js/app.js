@@ -248,12 +248,14 @@ team.from('.footer__circle', {
 $(document).on('click', '[data-toggle="modal"]', function () {
   var $target = $($(this).data('target'));
   $target.toggleClass('modal--open');
+  $('body').addClass('modal--open');
   return false;
 });
 
 $(document).on('click', '[data-dismiss="modal"]', function () {
   setTimeout(() => {
     $(this).parents('.modal').toggleClass('modal--open');
+    $('body').removeClass('modal--open');
   }, 200);
   return false;
 });
@@ -262,6 +264,66 @@ $('.modal').click(function (e) {
   if (e.target === e.currentTarget) {
     setTimeout(() => {
       $(this).removeClass('modal--open');
+      $('body').removeClass('modal--open');
     }, 200);
+  }
+});
+
+// Custom file upload
+const actualBtn = document.getElementById('actual-btn');
+const uploadWrapper = document.querySelector('.form__upload');
+const removeFileBtn = document.querySelector('.form__remove');
+const fileChosen = document.getElementById('file-chosen');
+
+actualBtn.addEventListener('change', function () {
+  fileChosen.textContent = this.files[0].name;
+  uploadWrapper.classList.add('form__upload--uploaded');
+});
+
+removeFileBtn.addEventListener('click', () => {
+  actualBtn.value = null;
+  fileChosen.textContent = 'Resume';
+  uploadWrapper.classList.remove('form__upload--uploaded');
+});
+
+$(window).on('scroll', function () {
+  let scrollAmount = window.scrollY;
+  if (scrollAmount > 0) {
+    $('.header').addClass('header--white');
+  } else {
+    $('.header').removeClass('header--white');
+  }
+});
+
+$('.nav__link').click(function () {
+  if ($(this).attr('href') === '#about') {
+    $('html, body').animate(
+      {
+        scrollTop: $('.about').offset().top - 200,
+      },
+      1500
+    );
+  } else if ($(this).attr('href') === '#solutions') {
+    $('html, body').animate(
+      {
+        scrollTop: $('.solutions').offset().top,
+      },
+      1500
+    );
+  } else if ($(this).attr('href') === '#projects') {
+    console.log($('.projects').offset().top);
+    $('html, body').animate(
+      {
+        scrollTop: $('.projects').offset().top - 200,
+      },
+      1500
+    );
+  } else if ($(this).attr('href') === '#team') {
+    $('html, body').animate(
+      {
+        scrollTop: $('.team').offset().top,
+      },
+      1500
+    );
   }
 });

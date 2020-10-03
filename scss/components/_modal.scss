@@ -80,6 +80,15 @@
     }
   }
 
+  &__text {
+    color: $text-grey-color;
+    line-height: 1.875;
+
+    + .modal__text {
+      margin-top: 2rem;
+    }
+  }
+
   &__value {
     margin-left: 2rem;
     color: $text-grey-secondary-color;

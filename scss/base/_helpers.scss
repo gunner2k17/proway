@@ -34,6 +34,10 @@
   justify-content: space-between;
 }
 
+.text-grey {
+  color: $text-grey-color;
+}
+
 $spaceamounts: (5, 10, 15, 20, 24, 25, 30, 35, 40, 45, 50, 60, 75, 100);
 $sides: (top, bottom, left, right);
 

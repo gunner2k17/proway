@@ -23,6 +23,10 @@ body {
   color: $text-primary-color;
   background-color: $main-bg-color;
   overflow-x: hidden;
+
+  &.modal--open {
+    overflow: hidden;
+  }
 }
 
 a {

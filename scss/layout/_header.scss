@@ -28,9 +28,14 @@
 
     &__link {
       // font-size: 2rem;
+      position: relative;
       font-size: 1vw;
       font-family: inherit;
       transition: all 0.25s ease-in-out;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
 
       & + .nav__link {
         // margin-left: 5rem;
@@ -64,5 +69,42 @@
   &--white {
     background-color: #fff;
     box-shadow: 0 10px 40px rgba(#7699fc, 0.1);
+  }
+}
+
+
+.submenu {
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 4px;
+  box-shadow: 0 6px 10px rgba(#7699FC, 0.1);
+  max-width: 13rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: -12.5rem;
+  left: -27%;
+  padding: 2.5rem 2rem;
+  transition: all .2s ease-in-out;
+
+  &--open {
+    visibility: visible;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+  }
+
+  &__link {
+    display: block;
+    color: $text-grey-color;
+    text-align: left;
+    transition: all .25s ease-in-out;
+
+    + .submenu__link {
+      margin-top: 2.5rem;
+    }
+
+    &:hover {
+      color: $text-primary-color;
+      transition: all .25s ease-in-out;
+    }
   }
 }

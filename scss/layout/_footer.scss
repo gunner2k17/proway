@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left 8.3% bottom 141%;
+  position: relative;
 
   &__link {
     display: inline-block;
@@ -162,6 +163,35 @@
       right: 0;
       border-radius: 50%;
       background-color: #F6C3CA;
+    }
+  }
+
+  &--projects {
+    background-position: left 8.3% bottom 95.5%;
+    padding-top: 20rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      background-color: #F6C3CA;
+      height: 1660px;
+      width: 1660px;
+      left: -42%;
+      top: 18%;
+      z-index: -1;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      background-color: #892D92;
+      height: 1660px;
+      width: 1660px;
+      right: -50%;
+      top: 18%;
+      z-index: -1;
     }
   }
 }

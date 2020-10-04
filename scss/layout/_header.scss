@@ -2,13 +2,14 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-
 .header {
-  // height: 18.3rem;
   height: 12rem;
   position: fixed;
-  z-index: 10;
-  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  transition: all .2s ease-in-out;
 
   .container {
     height: 100%;
@@ -29,19 +30,16 @@
       // font-size: 2rem;
       font-size: 1vw;
       font-family: inherit;
-      transition: hover .25s ease-in-out;
+      transition: all 0.25s ease-in-out;
 
       & + .nav__link {
         // margin-left: 5rem;
         margin-left: 2.6vw;
       }
 
-      &:active, &:link {
-        
-        &:hover {
-          color: $main-red-color;
-          transition: all .25s ease-in-out;
-        }
+      &:hover {
+        color: $main-red-color;
+        transition: all 0.25s ease-in-out;
       }
     }
   }
@@ -51,18 +49,20 @@
     margin-left: 3.6vw;
     // font-size: 2rem;
     font-size: 1vw;
-    transition: all .25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 
-    &:active, &:link {
-      &:hover {
-        color: $main-red-color;
-        transition: all .25s ease-in-out;
-      }
+    &:nth-child(2) {
+      margin-left: auto;
+    }
+
+    &:hover {
+      color: $main-red-color;
+      transition: all 0.25s ease-in-out;
     }
   }
 
   &--white {
     background-color: #fff;
-    box-shadow: 0 10px 40px rgba(#7699FC, .1);
+    box-shadow: 0 10px 40px rgba(#7699fc, 0.1);
   }
 }

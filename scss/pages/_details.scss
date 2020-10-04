@@ -1,0 +1,49 @@
+.details {
+  margin-top: 12rem;
+  &__title {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  &__info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__text {
+    color: $text-grey-color;
+    line-height: 1.875;
+    max-width: 70rem;
+
+    p + p {
+      margin-top: 3rem;
+    }
+  }
+
+  &__img {
+    height: 51rem;
+    flex: 0 0 51rem;
+    width: 210px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: -5rem;
+  }
+
+  &__actions {
+    margin-top: 6rem;
+  }
+
+  &__link {
+    color: $main-red-color;
+  }
+
+  &__icon {
+    height: 1rem;
+    width: 2rem;
+    fill: $main-red-color;
+    transform: rotate(-180deg);
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,76 @@
+.our-projects {
+  margin-top: 12rem;
+  &__title {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 28rem);
+    column-gap: 7rem;
+    row-gap: 6rem;
+
+    &__card {
+      height: 28rem;
+      border-radius: 1.2rem;
+      background-color: #fff;
+      box-shadow: 0 3px 20px rgba(#7699fc, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6rem;
+    }
+
+    &__img {
+      object-fit: contain;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6rem;
+  }
+
+  &__link {
+    color: $main-red-color;
+  }
+
+  &__icon {
+    height: 1rem;
+    width: 2rem;
+    fill: $main-red-color;
+    transform: rotate(-180deg);
+    margin-right: 1rem;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+
+  &__page {
+    font-size: 1.6rem;
+    color: $text-grey-color;
+    display: flex;
+    align-items: center;
+
+    + .pagination__page {
+      margin-left: 2rem;
+    }
+
+    &--active {
+      font-size: 2rem;
+      color: $text-primary-color;
+    }
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 1rem;
+    fill: $text-grey-color;
+    margin-left: 1rem;
+  }
+}

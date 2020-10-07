@@ -355,7 +355,6 @@ $('#submenu').click(function () {
 });
 
 $('.submenu__link').click(function () {
-  console.log($(this).attr('id'));
   if ($(this).attr('id') === 'waterfall') {
     $('html, body').animate(
       {

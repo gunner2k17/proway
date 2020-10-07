@@ -4,6 +4,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px
+
+  @media screen and (max-width: 1440px) {
+    font-size: 56.5%;
+  }
 }
 
 *, *:before, *:after {

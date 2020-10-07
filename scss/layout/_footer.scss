@@ -11,6 +11,10 @@
   background-position: left 8.3% bottom 141%;
   position: relative;
 
+  @media screen and (max-width: 1440px) {
+    background-position: left 12.3% bottom 128%;
+  }
+
   &__link {
     display: inline-block;
     width: 11.5rem;

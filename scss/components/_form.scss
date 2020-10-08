@@ -118,6 +118,14 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 6rem;
+
+    @include respond(laptop-hq) {
+      margin-top: 4rem;
+    }
+
+    @include respond(laptop) {
+      margin-top: 4rem;
+    }
   }
 
   &__checkmark {

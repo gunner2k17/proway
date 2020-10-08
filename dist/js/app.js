@@ -45,7 +45,7 @@ if (document.querySelector('.slider')) {
 
 // Objects
 if (document.querySelector('.objects')) {
-  gsap.from('.objects__1 .elem', {
+  gsap.from('.objects__1', {
     opacity: 0,
     duration: 3,
     y: -450,
@@ -53,7 +53,7 @@ if (document.querySelector('.objects')) {
     ease: 'back.inOut(1.7)',
   });
 
-  gsap.from('.objects__2 .elem', {
+  gsap.from('.objects__2', {
     opacity: 0,
     duration: 3,
     x: 810,

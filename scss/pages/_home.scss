@@ -20,17 +20,24 @@
     width: 200rem;
     top: 0;
     right: 0;
-    overflow: hidden;
-    .elem {
+    // overflow: hidden;
+
+    &::before {
+      content: '';
+      height: 150rem;
+      width: 150rem;
       position: absolute;
       right: -30%;
       top: -27%;
-      height: 150rem;
-      width: 150rem;
       border-radius: 50%;
       background-color: $main-red-color;
 
-      @media screen and (max-width: 1440px) {
+      @include respond(laptop-hq) {
+        right: -33%;
+        top: -38%;
+      }
+
+      @include respond(laptop) {
         right: -33%;
         top: -34%;
       }
@@ -43,18 +50,25 @@
     width: 81rem;
     top: 0;
     right: 0;
-    overflow: hidden;
+    // overflow: hidden;
     z-index: 5;
-    .elem {
+
+    &::before {
+      content: '';
+      height: 150rem;
+      width: 150rem;
       position: absolute;
       right: -88%;
       top: -152%;
-      height: 150rem;
-      width: 150rem;
       border-radius: 50%;
       background-color: rgba(#f6c3ca, 0.8);
 
-      @media screen and (max-width: 1440px) {
+      @include respond(laptop-hq) {
+        right: -115%;
+        top: -165%;
+      }
+
+      @include respond(laptop) {
         right: -119%;
         top: -169%;
       }
@@ -70,8 +84,10 @@
     // background-position: 82% 90%;
     background-position: 82% -165rem;
 
-    @media screen and(max-width: 1440px) {
-      // background-position: 77% -195rem;
+    @include respond(laptop-hq) {
+      background-position: 76% -189rem;
+    }
+    @include respond(laptop) {
       background-position: 77% -220rem;
     }
   }
@@ -166,7 +182,12 @@
   padding-bottom: 32rem;
   margin-top: -15rem;
 
-  @media screen and(max-width: 1440px) {
+  @include respond(laptop-hq) {
+    padding-top: 26rem;
+    margin-top: -33rem;
+  }
+
+  @include respond(laptop) {
     padding-top: 26rem;
     margin-top: -35rem;
   }
@@ -249,7 +270,7 @@
     top: -46rem;
     z-index: -1;
 
-    @media screen and(max-width: 1440px) {
+    @include respond(laptop) {
       left: -90rem;
     }
   }
@@ -345,7 +366,7 @@
       align-items: center;
       justify-content: center;
 
-      @media screen and (max-width: 1440px) {
+      @include respond(laptop) {
         svg {
           height: 8rem;
           width: 8rem;
@@ -408,7 +429,7 @@
     top: -38rem;
     z-index: -1;
 
-    @media screen and(max-width: 1440px) {
+    @include respond(laptop) {
       right: -83rem;
     }
   }
@@ -452,8 +473,10 @@
   }
 
   &__title {
-    font-size: 17rem;
+    // font-size: 17rem;
+    font-size: 20vh;
     font-weight: 700;
+    max-width: 60%;
   }
 
   &__img {
@@ -804,7 +827,7 @@
     top: -32rem;
     z-index: -1;
 
-    @media screen and (max-width: 1440px) {
+    @include respond(laptop) {
       right: -79rem;
     }
   }

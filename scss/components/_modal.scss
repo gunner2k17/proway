@@ -17,16 +17,32 @@
   &__content {
     width: 90rem;
     padding: 8rem 10rem;
-    padding-bottom: 10rem;
+    // padding-bottom: 10rem;
     border-radius: 4.4rem;
     background-color: #fff;
     opacity: 0;
     transform: scale(0);
     transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    @include respond(laptop-hq) {
+      padding: 3rem 10rem;
+    }
+
+    @include respond(laptop) {
+      padding: 3rem 10rem;
+    }
   }
 
   &__header {
     margin-bottom: 6rem;
+
+    @include respond(laptop-hq) {
+      margin-bottom: 4rem;
+    }
+
+    @include respond(laptop) {
+      margin-bottom: 4rem;
+    }
   }
 
   &__title {
@@ -49,7 +65,7 @@
     height: 2rem;
     width: 2rem;
     fill: $text-primary-color;
-    opacity: .6;
+    opacity: 0.6;
   }
 
   &__body {
@@ -99,6 +115,14 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 10rem;
+
+    @include respond(laptop-hq) {
+      padding-top: 5rem;
+    }
+
+    @include respond(laptop) {
+      padding-top: 5rem;
+    }
   }
 
   &--open {

@@ -11,12 +11,8 @@
   background-position: left 8.3% bottom 141%;
   position: relative;
 
-  @include respond(laptop) {
-    background-position: left 12.3% bottom 128%;
-  }
-
-  @media screen and (max-width: 1537px) {
-    background-position: left 14.3% bottom 141%;
+  @include respond(laptop-hq) {
+    background-position: left 12.3% bottom 141%;
   }
 
   &__link {

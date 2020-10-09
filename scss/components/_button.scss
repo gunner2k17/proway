@@ -19,6 +19,13 @@
   border: 1px solid transparent;
   transition: hover .3s ease-in-out;
 
+  @include respond(laptop-hq) {
+    width: 28.8rem;
+    height: 6.4rem;
+    font-size: 2rem;
+    border-radius: 3.2rem;
+  }
+
   &--primary {
     background-color: $main-red-color;
 

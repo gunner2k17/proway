@@ -19,6 +19,10 @@
 
 .u-title-primary {
   font-size: 4rem;
+
+  @include respond(laptop-hq) {
+    font-size: 3.2rem;
+  }
 }
 
 .u-text-primary {
@@ -26,6 +30,10 @@
   font-weight: 400;
   line-height: 1.875;
   color: $text-grey-color;
+
+  @include respond(laptop-hq) {
+    font-size: 1.4rem;
+  }
 }
 
 .flex-apart {

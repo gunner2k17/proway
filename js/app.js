@@ -315,6 +315,15 @@ $(document).on('scroll', function () {
   }
 });
 
+$(document).ready(function () {
+  let scrollAmount = window.scrollY;
+  if (scrollAmount > 0) {
+    $('.header').addClass('header--white');
+  } else {
+    $('.header').removeClass('header--white');
+  }
+});
+
 $('.nav__link').click(function () {
   if ($(this).attr('href') === '#about') {
     $('html, body').animate(

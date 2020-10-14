@@ -24,9 +24,6 @@
   @if $breakpoint == tab-land {
     @media (max-width: 75em) {@content};    //1200px
   }
-  @if $breakpoint == tab-land {
-    @media (max-width: 75em) {@content};    //1200px
-  }
   @if $breakpoint == laptop {
     @media (max-width: 90em) {@content};    //1440px
   }
